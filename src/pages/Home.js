@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { LogoLink } from '../components/logo/LogoLink';
 import { Content } from '../components/content/Content';
 import { Hidden } from '@material-ui/core';
@@ -11,7 +12,8 @@ import { SpeedDials } from '../components/speedDial/SpeedDial';
 import { SideNavbar } from '../components/nav/SideNavbar';
 import { Works } from '../components/works/Works';
 import { About } from '../components/about/About';
-import { Contact } from '../components/contact/Contact';
+import {Contact} from '../components/contact/Contact';
+import AdminPanel from '../components/adminPanel/Admin';
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -25,24 +27,31 @@ export const Home = () => {
   const classes = useStyles();
 
   return (
-    <>
-      <div className={classes.root} id="home">
-        <DisplacementSphere />
-        <LogoLink />
-        <Content />
-        <ThemeToggle />
-        <Hidden smDown>
-          <SocialIcons />
-        </Hidden>
-        <Hidden mdUp>
-          <SpeedDials />
-        </Hidden>
-        <Resume />
-      </div>
-      <SideNavbar />
-      <Works />
-      <About />
-      <Contact />
-    </>
+    <Router>
+      <Switch>
+        <Route path="/admin" component={AdminPanel} />
+        <Route path="/">
+          <>
+            <div className={classes.root} id="home">
+              <DisplacementSphere />
+              <LogoLink />
+              <Content />
+              <ThemeToggle />
+              <Hidden smDown>
+                <SocialIcons />
+              </Hidden>
+              <Hidden mdUp>
+                <SpeedDials />
+              </Hidden>
+              <Resume />
+            </div>
+            <SideNavbar />
+            <Works />
+            <About />
+            <Contact />
+          </>
+        </Route>
+      </Switch>
+    </Router>
   );
 };

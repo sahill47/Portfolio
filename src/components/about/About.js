@@ -20,10 +20,11 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  designer & developer. I'm always down for something new and challenging!
-                  I'm here to help you create beautifully formatted websites. 
-                  My projects mostly includes web development.`;
+  const aboutme = `I'm ${FirstName} ${LastName}, a passionate and skilled MERN stack developer.  
+  I specialize in building dynamic, scalable, and user-friendly web applications.  
+  Always eager to learn and embrace new challenges, I thrive on creating innovative solutions.  
+  My projects primarily focus on full-stack web development using MongoDB, Express, React, and Node.js.  
+  Let's collaborate to bring your ideas to life with beautifully crafted and functional websites!`;
 
   return (
     <section id="about">

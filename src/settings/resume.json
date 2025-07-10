@@ -1,7 +1,7 @@
 {
     "basics": {
-        "name": "Mark Tan",
-        "label": "Web Developer",
+        "name": "Sahil Sheikh",
+        "label": "Fullstack Web Developer",
         "email": "markcmtan@gmail.com",
         "phone": "(XXX) XXX-XXXX",
         "picture": "mt.png",
@@ -11,52 +11,47 @@
         "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
         "summary": "based in Angeles, Philippines.",
         "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
+        "url": "",
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
+            "city": "Gujarat",
+            "country": "India",
             "countryCode": "PH",
             "region": "Pampanga"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
+                "username": "sheikhsahil0047@gmail.com",
+                "url": "mailto:sheikhsahil0047@gmail.com",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "saahil-sheikh",
+                "url": "https://www.linkedin.com/in/saahil-sheikh/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "sahill47",
+                "url": "https://github.com/sahill47",
                 "x_icon": "fab fa-github"
             },
             {
                 "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
+                "username": "sheikhsahil0047",
+                "url": "https://gitlab.com/sheikhsahil0047",
                 "x_icon": "fab fa-gitlab"
             },
             {
-                "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
-                "network": "Discord",
-                "username": "taniyow#9142",
-                "url": "https://discord.com",
-                "x_icon": "fab fa-discord"
+                "network": "LeetCode",
+                "username": "sahil_sheikh_47",
+                "url": "https://leetcode.com/u/sahil_sheikh_47/",
+                "x_icon": "fab fa-code"
             }
+
         ]
     },
     "work": [
